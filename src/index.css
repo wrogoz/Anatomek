@@ -1,3 +1,6 @@
+body{
+	background-color: #7CBB00;
+}
 .flyout {
 	display:flex;
 	flex-direction: column;
@@ -28,11 +31,22 @@
 	color:rgba(0,0,0,.35);
 	float:right;
 }
-.menuCol{
+.pageSize{
 	height:100vh;
-	background-color: #f65314;
 }
-.mainBoxCol{
-	height:100vh;
-	background-color: #00A1F1;
+.mainBoxRow{
+	height: 65%;
+	z-index: 1000;
+}
+.footerRow{
+	height: 10%;
+}
+.col-md-12{
+	
+}
+.col-md-3{
+	padding: 0;
+}
+.col-md-9{
+	padding:0;
 }

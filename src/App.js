@@ -1,19 +1,47 @@
 import React, { Component } from "react";
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse,MDBRow,MDBCol, MDBNavItem, MDBFooter, MDBNavLink, MDBContainer } from "mdbreact";
-import Menu from './components/menu/menu'
+import {MDBRow,MDBCol, MDBContainer } from "mdbreact";
 import { BrowserRouter as Router } from "react-router-dom";
+import Header from './components/header/header'
+import Navigation from './components/nav/navigation'
+import MainBox from './components/MainBox/mainBox'
+import Footer from './components/footer/footer'
 import Routes from "./Routes";
 
 class App extends Component {
 
   render(){
     return (
-    <MDBContainer fluid>
-        <MDBRow>
-          <MDBCol className="menuCol" md="3">
-                  <Menu/>
+    <MDBContainer fluid className="pageSize" >
+    {/* Header */}
+        <MDBRow >
+          <MDBCol  md="12">
+                 <Header/>
           </MDBCol>
-          <MDBCol className="mainBoxCol" md="9">.col-md-10</MDBCol>
+        </MDBRow>
+{/* nav + mainbox */}
+        <MDBRow className="mainBoxRow ">
+          <MDBCol  md="3">
+
+              <Navigation/>
+
+          </MDBCol>
+          <MDBCol  md="9">
+
+              <MainBox/>
+
+          </MDBCol>
+        </MDBRow >
+
+
+        {/* Footer */}
+
+        <MDBRow 
+        className="footerRow">
+            <MDBCol 
+            className="menuCol"
+            md="12">
+                <Footer/>
+            </MDBCol>
         </MDBRow>
     </MDBContainer>)
   }

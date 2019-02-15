@@ -1,0 +1,13 @@
+li{
+    list-style: none;
+}
+.navBox{
+    background-color: #00A1F1;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     font-family: 'Gloria Hallelujah', cursive;
+     font-size: 2rem;
+     color:#fff;
+}

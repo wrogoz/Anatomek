@@ -1,0 +1,23 @@
+.headerbox{
+    background-color: #7CBB00;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.header__items{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-transform: uppercase;
+    font-size: 4rem;
+    display:flex;
+}
+.header__items img{
+    max-height: 6rem;
+    margin-top:10%;
+   
+}
+.header__items span{
+  color:#F65314;
+}
