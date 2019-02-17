@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+   
     
 }
 
@@ -13,9 +14,11 @@
     font-size: 4rem;
     display:flex;
 }
+
 .header__items img{
-    max-height: 6rem;
-    margin-top:10%;
+height: 5rem;
+align-self: flex-end
+  
    
 }
 .header__items span{

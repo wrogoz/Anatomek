@@ -11,38 +11,34 @@ class App extends Component {
 
   render(){
     return (
-    <MDBContainer fluid className="pageSize" >
+    <MDBContainer fluid  >
     {/* Header */}
-        <MDBRow >
-          <MDBCol  md="12">
-                 <Header/>
-          </MDBCol>
-        </MDBRow>
-{/* nav + mainbox */}
-        <MDBRow className="mainBoxRow ">
-          <MDBCol  md="3">
 
+      <MDBRow >
+              <Header/>
+      </MDBRow>
+
+    {/* navi + mainBox */}
+
+        <MDBRow className="no-gutters z-depth-2 ">
+
+          <MDBCol md="2" >
               <Navigation/>
+        </MDBCol>
 
-          </MDBCol>
-          <MDBCol  md="9">
-
+          <MDBCol md="10" >
               <MainBox/>
+        </MDBCol>
+      </MDBRow>
 
+      {/* footer */}
+      <MDBRow>
+
+          <MDBCol md="12" >
+            <Footer />
           </MDBCol>
-        </MDBRow >
 
-
-        {/* Footer */}
-
-        <MDBRow 
-        className="footerRow">
-            <MDBCol 
-            className="menuCol"
-            md="12">
-                <Footer/>
-            </MDBCol>
-        </MDBRow>
+      </MDBRow>
     </MDBContainer>)
   }
   

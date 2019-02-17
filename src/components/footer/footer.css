@@ -1,4 +1,11 @@
 .footer{
-    height:100%;
+   display:flex;
+   justify-content:center;
+   align-items: center;
     background-color: #7CBB00;
+    padding:15px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color:#fff;
+    font-size:1rem;
+    margin-top:1%;
 }

@@ -1,6 +1,3 @@
-body{
-	background-color: #7CBB00;
-}
 .flyout {
 	display:flex;
 	flex-direction: column;
@@ -30,23 +27,4 @@ body{
 .example-components-list li > a .fa {
 	color:rgba(0,0,0,.35);
 	float:right;
-}
-.pageSize{
-	height:100vh;
-}
-.mainBoxRow{
-	height: 65%;
-	z-index: 1000;
-}
-.footerRow{
-	height: 10%;
-}
-.col-md-12{
-	
-}
-.col-md-3{
-	padding: 0;
-}
-.col-md-9{
-	padding:0;
 }
