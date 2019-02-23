@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css'
-import kidHeader from './kidHeader.svg'
+import anatomek from './anatomek3.svg'
 import {  MDBCol } from "mdbreact";
 class Header extends React.Component {
    
@@ -10,7 +10,7 @@ class Header extends React.Component {
             <MDBCol md="12">
                 <header className="headerbox ">
                         <div className="header__items" >  
-                            <img src={kidHeader} alt={kidHeader}/>    
+                            <img src={anatomek} alt={anatomek}/>    
                             <p>Ana<span>tomek</span></p>  
                         </div>      
                     </header>

@@ -1,0 +1,17 @@
+img.systemImg{
+    padding:10% 0;
+    
+}
+.firstCol{
+    display:flex;
+    justify-content: center;
+}
+.secondCol{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.secondCol p{
+    padding:10%;
+}
