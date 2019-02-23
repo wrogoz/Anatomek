@@ -1,0 +1,53 @@
+.firstOrgansCol{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.firstOrgansCol img{
+    height:50%;
+}
+#girl{
+    position:relative;
+}
+#brain{
+    height:17%;
+    position:absolute;
+    top:5%;
+}
+#lungs{
+    height:17%;
+    position:absolute;
+    bottom:4%;
+    right:21%;
+}
+#largeIntestine{
+    height:17%;
+    position:absolute;
+    bottom:4%;
+    left:21%;
+}
+#stomach{
+    height:17%;
+    position:absolute;
+    top:25%;
+    right:2%;
+}
+#smallIntestine{
+     height:17%;
+    position:absolute;
+    bottom:28%;
+    right:2%;
+}
+#heart{
+    height:17%;
+    position:absolute;
+    top:25%;
+    left:2%;
+}
+#liver{
+     height:17%;
+    position:absolute;
+    bottom:28%;
+    left:2%;
+}

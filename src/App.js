@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {MDBRow,MDBCol, MDBContainer } from "mdbreact";
-
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/header/header'
 import Navigation from './components/nav/navigation'
 import MainBox from './components/MainBox/mainBox'
@@ -10,7 +10,7 @@ import Footer from './components/footer/footer'
 class App extends Component {
 
   render(){
-    return (
+    return (<Router>
     <MDBContainer fluid  >
     {/* Header */}
 
@@ -39,7 +39,8 @@ class App extends Component {
           </MDBCol>
 
       </MDBRow>
-    </MDBContainer>)
+    </MDBContainer>
+    </Router>)
   }
   
 };

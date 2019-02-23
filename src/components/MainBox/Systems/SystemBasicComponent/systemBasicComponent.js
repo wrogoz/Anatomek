@@ -13,7 +13,7 @@ const SystemBasicComponent=(props)=>{
             </MDBCol>
             <MDBCol md="6" className="secondCol">
                 <p>{props.description}</p>
-                <Link to={`/`}>
+                <Link to={`/systems`}>
                     <MDBBtn color="light-green" >Wstecz</MDBBtn>
                 </Link>
                 
