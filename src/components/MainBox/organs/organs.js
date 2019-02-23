@@ -25,28 +25,28 @@ const Organs = () => {
             <MDBCol md="6" className="firstOrgansCol">
 
 
-                <img src={Girl} alt="girl image" id="girl" />
+                <img src={Girl} alt="girl " id="girl" />
                 
                 <Link to={`/organs/brain`} id="brain">
-                    <img src={Brain} alt="brain image"  />
+                    <img src={Brain} alt="brain "  />
                 </Link>
                 <Link to={`/organs/lungs`}>
-                    <img src={Lungs} alt="lungs image" id="lungs" />
+                    <img src={Lungs} alt="lungs " id="lungs" />
                 </Link>
                 <Link to={`/organs/largeIntestine`}>
-                    <img src={largeIntestine} alt="Large intestine image" id="largeIntestine" />
+                    <img src={largeIntestine} alt="Large intestine " id="largeIntestine" />
                 </Link>
                 <Link to={`/organs/stomach`}>
-                    <img src={Stomach} alt="stomach image" id="stomach" />
+                    <img src={Stomach} alt="stomach" id="stomach" />
                 </Link>
                 <Link to={`/organs/smallIntestine`}>
-                    <img src={SmallIntestine} alt="small intestine image" id="smallIntestine" />
+                    <img src={SmallIntestine} alt="small intestine " id="smallIntestine" />
                 </Link>
                 <Link to={`/organs/heart`}>
-                    <img src={Heart} alt="Heartimage" id="heart" />
+                    <img src={Heart} alt="Heart" id="heart" />
                 </Link>
                 <Link to={`/organs/liverComponent`}>
-                    <img src={Liver} alt="Liver image" id="liver" />
+                    <img src={Liver} alt="Liver " id="liver" />
                 </Link>
 
             </MDBCol>

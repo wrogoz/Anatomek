@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import { Route} from 'react-router-dom'
 import Start from "./StartPage/start"
 import SystemsMenu from './SystemsMenu/systemsMenu'
 import SkeletalSystem from './Systems/skeletalSystem'

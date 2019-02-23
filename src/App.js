@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {MDBRow,MDBCol, MDBContainer } from "mdbreact";
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router} from 'react-router-dom'
 import Header from './components/header/header'
 import Navigation from './components/nav/navigation'
 import MainBox from './components/MainBox/mainBox'
