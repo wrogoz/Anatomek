@@ -6,11 +6,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg6606"
    version="1.1"
    viewBox="0 0 19.990499 19.990499"
    height="19.990499mm"
-   width="19.990499mm">
+   width="19.990499mm"
+   sodipodi:docname="smallintestine.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="662"
+     id="namedview32"
+     showgrid="false"
+     inkscape:zoom="3.1235671"
+     inkscape:cx="37.777322"
+     inkscape:cy="37.777322"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs6600">
     <clipPath
@@ -30,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,7 +103,7 @@
        d="m 141.28881,203.58594 c 0.65229,0 1.18145,-0.53001 1.18145,-1.18332 0,-0.65292 -0.52916,-1.18209 -1.18145,-1.18209 -0.65405,0 -1.18251,0.52917 -1.18251,1.18209 0,0.65331 0.52846,1.18332 1.18251,1.18332" />
     <path
        id="path1482"
-       style="fill:#f477ad;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03527778"
+       style="fill:#0092f4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03527778"
        d="m 149.09049,195.70273 c 0,5.52055 -4.47534,9.9949 -9.9949,9.9949 -5.52062,0 -9.9956,-4.47435 -9.9956,-9.9949 0,-5.5203 4.47498,-9.9956 9.9956,-9.9956 5.51956,0 9.9949,4.4753 9.9949,9.9956" />
     <path
        id="path1484"
