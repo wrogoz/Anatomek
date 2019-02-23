@@ -1,5 +1,6 @@
 import React from 'react'
-import { MDBCol,MDBRow } from "mdbreact";
+import { MDBCol, MDBRow, MDBBtn } from "mdbreact";
+import { Link } from 'react-router-dom'
 import './SystemBasicComponent.css'
 const SystemBasicComponent=(props)=>{
     console.log(props)
@@ -12,6 +13,10 @@ const SystemBasicComponent=(props)=>{
             </MDBCol>
             <MDBCol md="6" className="secondCol">
                 <p>{props.description}</p>
+                <Link to={`/`}>
+                    <MDBBtn color="light-green" >Wstecz</MDBBtn>
+                </Link>
+                
             </MDBCol> 
             </MDBRow>
     )
