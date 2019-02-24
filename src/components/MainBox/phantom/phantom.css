@@ -7,23 +7,51 @@
     height:100%;
 }
 
-#human{
+#humanPhantom{
     position: relative;
 }
-#skull{
+#skullPhantom{
     position: absolute;
     top:6%;
     left:44%;
 }
-#ribCage{
+#ribCagePhantom{
     position:absolute;
     top:20%;
     left:39%;
     z-index: 5;
 }
-#liver{
+#liverPhantom{
     position:absolute;
     top:32%;
     left:40%;
     height:7%;
+    z-index: 1;
+}
+#heartPhantom{
+    position: absolute;
+    height: 6%;
+    top: 21%;
+    left: 47%;
+    z-index: 1;
+}
+#stomachPhantom{
+    position: absolute;
+    height: 6%;
+    top: 32%;
+    right: 40%;
+}
+#lungsPhantom{
+    position: absolute;
+    height: 11%;
+    top: 21%;
+    right: 39%;
+}
+
+
+.secondPhantomCol{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
