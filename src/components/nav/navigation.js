@@ -7,8 +7,8 @@ const Navigation = () => {
             <li> <Link to={`/`}> Start </Link> </li>
             <li> <Link to={`/systems`}> Systemy Ciała </Link> </li>
             <li> <Link to={`/organs`}> Organy </Link> </li>
-            <li> <Link to={`/`}> Zmysły </Link> </li>
-            <li> <Link to={`/`}> Oddaj nerkę </Link> </li>
+            <li> <Link to={`/senses`}> Zmysły </Link> </li>
+            <li> <Link to={`/fantom`}> Oddaj nerkę </Link> </li>
         </ul>
     )
 }

@@ -1,0 +1,31 @@
+.firstSensesCol{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgSize{
+    height: 80px;
+}
+#sight{
+    position: relative;
+}
+#hear{
+    position: absolute;
+    top:10%;
+    right: 15%;
+}
+#taste{
+    position: absolute;
+    top:10%;
+    left: 15%;
+}
+#touch{
+    position: absolute;
+    bottom:10%;
+    left: 15%;
+}
+#smell{
+    position: absolute;
+    bottom:10%;
+    right: 15%;
+}

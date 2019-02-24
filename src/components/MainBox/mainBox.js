@@ -9,6 +9,8 @@ import DigestiveSystem from "./Systems/digestiveSystem";
 import RespiratorySystem from "./Systems/respiratorySystem";
 import VascularSystem from "./Systems/vascularSystem";
 import Organs from "./organs/organs";
+import Senses from "./senses/senses"
+import Phantom from "./phantom/phantom"
 import './mainBox.css'
 
 class MainBox extends Component{
@@ -26,6 +28,8 @@ class MainBox extends Component{
             <Route path="/respiratorySystem" component={RespiratorySystem} />
             <Route path="/vascularSystem" component={VascularSystem} />
             <Route path="/organs" component={Organs} />
+            <Route path="/senses" component={Senses} />
+            <Route path="/fantom" component={Phantom} />
         </div>
   
             

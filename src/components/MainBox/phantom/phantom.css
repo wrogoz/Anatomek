@@ -1,0 +1,29 @@
+.firstPhantomCol{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstPhantomCol img{
+    height:100%;
+}
+
+#human{
+    position: relative;
+}
+#skull{
+    position: absolute;
+    top:6%;
+    left:44%;
+}
+#ribCage{
+    position:absolute;
+    top:20%;
+    left:39%;
+    z-index: 5;
+}
+#liver{
+    position:absolute;
+    top:32%;
+    left:40%;
+    height:7%;
+}
