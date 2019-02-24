@@ -64,7 +64,7 @@ class Phantom extends React.Component{
             <MDBRow className="mainBox no-gutters">
                 <MDBCol md="6" className="firstPhantomCol">
                    <div id="humanPhantom">
-                        <img src={human} alt="human" />
+                        {this.state.vascularSys.display === true ? <img src={humanNovasc} alt="human" /> : <img src={human} alt="human" />}
                    
 
                         {this.state.skull.display === true ? <div id="skullPhantom">
@@ -98,7 +98,8 @@ class Phantom extends React.Component{
                     <button onClick={() => { this.hideShowHandler("stomach"); }}>{this.state.stomach.buttonTxt} Żołądek</button>
                     <button onClick={() => { this.hideShowHandler("lungs"); }}>{this.state.lungs.buttonTxt} Płuca</button>
                     <button onClick={() => { this.hideShowHandler("ribCage"); }}>{this.state.ribCage.buttonTxt} klatkę piersiową</button>
-                        <button>{this.state.vascularSys.buttonTxt} naczynia krwionośne</button>
+                    <button onClick={() => { this.hideShowHandler("vascularSys"); }}>{this.state.vascularSys.buttonTxt} Naczynia krwionośne</button>
+                    
                 </MDBCol>
             </MDBRow>
         )
