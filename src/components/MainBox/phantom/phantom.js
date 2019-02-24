@@ -1,6 +1,7 @@
 import React from 'react'
 import { MDBCol, MDBRow, } from 'mdbreact';
 import human from './images/human.svg';
+import humanNovasc from './images/humanWithoutVascular.svg'
 import skull from './images/skull.svg';
 import ribCage from './images/ribCage.svg';
 import liver from './images/liver.svg';
@@ -8,7 +9,7 @@ import heart from './images/heart.svg';
 import lungs from './images/lungs.svg';
 import stomach from './images/stomach.svg';
 import './phantom.css'
-import { timingSafeEqual } from 'crypto';
+
 
 class Phantom extends React.Component{
    state={
@@ -49,55 +50,54 @@ class Phantom extends React.Component{
         }
     
 }
-    ShowHideHandler = (e) => {
-    //  console.log(e.target.dataset.id)
-    // //    if(e.target.dataset.id===false){
-    // //        console.log('dziala')
-    // //    }
-    //     let name = e.target.dataset.id;
-    //     this.setState({
-    //         name: {
-    //             display : false
-    //         }
-    //     });
-    }   
+    hideShowHandler = (organ) => {
+        this.setState((prevState) => {
+          
+            return {
+                [organ]: { ...prevState[organ], display: !prevState[organ].display }
+            }
+        })
+    }
+    
     render(){
         return (
             <MDBRow className="mainBox no-gutters">
                 <MDBCol md="6" className="firstPhantomCol">
-                    <div id="humanPhantom">
-                    <img src={human} alt="human"  />
+                   <div id="humanPhantom">
+                        <img src={human} alt="human" />
+                   
 
                         {this.state.skull.display === true ? <div id="skullPhantom">
                             <img src={skull} alt="skull" />
                         </div>:null} 
-                        <div id="ribCagePhantom">
+                        {this.state.ribCage.display === true ? <div id="ribCagePhantom">
                             <img src={ribCage} alt="ribCage" />
-                        </div>
-                        <div id="liverPhantom">
+                        </div>:null}
+                        {this.state.liver.display === true ? <div id="liverPhantom">
                             <img src={liver} alt="liver" />
-                        </div>
-                        <div id="heartPhantom">
+                        </div>:null}
+                        {this.state.heart.display === true ? <div id="heartPhantom">
                             <img src={heart} alt="heart" />
-                        </div>
-                        <div id="stomachPhantom">
+                        </div>:null}
+                        {this.state.stomach.display === true ?<div id="stomachPhantom">
                             <img src={stomach} alt="stomach" />
-                        </div>
-                        <div id="lungsPhantom">
+                        </div>:null}
+                        {this.state.lungs.display === true ? <div id="lungsPhantom">
                             <img src={lungs} alt="lungs" />
-                        </div>
+                        </div>:null}
+                        
                     </div>
                     
                     
 
                 </MDBCol>
                 <MDBCol md="6" className="secondPhantomCol">
-                    <button data-id="skull" onClick={this.ShowHideHandler}>{this.state.skull.buttonTxt} czaszkę</button>
-                        <button>{this.state.heart.buttonTxt} serce</button>
-                        <button>{this.state.liver.buttonTxt} wątrobę</button>
-                        <button>{this.state.stomach.buttonTxt} żołądek</button>
-                        <button>{this.state.lungs.buttonTxt} płuca</button>
-                        <button>{this.state.ribCage.buttonTxt} klatkę piersiową</button>
+                    <button onClick={() => { this.hideShowHandler("skull"); }}>{this.state.skull.buttonTxt} czaszkę</button>
+                    <button onClick={() => { this.hideShowHandler("heart"); }}>{this.state.heart.buttonTxt} serce</button>
+                    <button onClick={() => { this.hideShowHandler("liver"); }}>{this.state.liver.buttonTxt} wątrobę</button>
+                    <button onClick={() => { this.hideShowHandler("stomach"); }}>{this.state.stomach.buttonTxt} Żołądek</button>
+                    <button onClick={() => { this.hideShowHandler("lungs"); }}>{this.state.lungs.buttonTxt} Płuca</button>
+                    <button onClick={() => { this.hideShowHandler("ribCage"); }}>{this.state.ribCage.buttonTxt} klatkę piersiową</button>
                         <button>{this.state.vascularSys.buttonTxt} naczynia krwionośne</button>
                 </MDBCol>
             </MDBRow>
