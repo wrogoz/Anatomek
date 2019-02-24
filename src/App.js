@@ -20,7 +20,7 @@ class App extends Component {
 
     {/* navi + mainBox */}
 
-        <MDBRow className="no-gutters z-depth-2 ">
+        <MDBRow className="no-gutters  ">
 
           <MDBCol md="2" >
               <Navigation/>
