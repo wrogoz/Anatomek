@@ -99,7 +99,7 @@ class Phantom extends React.Component{
                     <button onClick={() => { this.hideShowHandler("lungs"); }}>{this.state.lungs.buttonTxt} Płuca</button>
                     <button onClick={() => { this.hideShowHandler("ribCage"); }}>{this.state.ribCage.buttonTxt} klatkę piersiową</button>
                     <button onClick={() => { this.hideShowHandler("vascularSys"); }}>{this.state.vascularSys.buttonTxt} Naczynia krwionośne</button>
-                    
+               
                 </MDBCol>
             </MDBRow>
         )
