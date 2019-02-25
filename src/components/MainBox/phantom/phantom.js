@@ -15,46 +15,40 @@ class Phantom extends React.Component{
    state={
         skull:{
                 display:true,
-                info:'text',
-                buttonTxt:"ukryj"
+                info:'text'
         },
         heart: {
             display: true,
-            info: 'text',
-            buttonTxt:"ukryj"
+            info: 'text'
         },
         liver: {
             display: true,
             info: 'text',
-            buttonTxt:"ukryj"
         },
         stomach: {
             display: true,
-            info: 'text',
-            buttonTxt:"ukryj"
+            info: 'text'
         },
         lungs: {
             display: true,
-            info: 'text',
-            buttonTxt:"ukryj"
+            info: 'text'
         },
         ribCage: {
             display: true,
-            info: 'text',
-            buttonTxt:"ukryj"
+            info: 'text'
         },
         vascularSys: {
             display: true,
-            info: 'text',
-            buttonTxt:"ukryj"
+            info: 'text'
         }
     
 }
     hideShowHandler = (organ) => {
+        
         this.setState((prevState) => {
           
             return {
-                [organ]: { ...prevState[organ], display: !prevState[organ].display }
+                [organ]: { ...prevState[organ], display: !prevState[organ].display}
             }
         })
     }
@@ -64,7 +58,7 @@ class Phantom extends React.Component{
             <MDBRow className="mainBox no-gutters">
                 <MDBCol md="6" className="firstPhantomCol">
                    <div id="humanPhantom">
-                        {this.state.vascularSys.display === true ? <img src={humanNovasc} alt="human" /> : <img src={human} alt="human" />}
+                        {this.state.vascularSys.display === true ? <img src={human} alt="human" /> : <img src={humanNovasc} alt="human" />}
                    
 
                         {this.state.skull.display === true ? <div id="skullPhantom">
@@ -92,13 +86,13 @@ class Phantom extends React.Component{
 
                 </MDBCol>
                 <MDBCol md="6" className="secondPhantomCol">
-                    <button onClick={() => { this.hideShowHandler("skull"); }}>{this.state.skull.buttonTxt} czaszkę</button>
-                    <button onClick={() => { this.hideShowHandler("heart"); }}>{this.state.heart.buttonTxt} serce</button>
-                    <button onClick={() => { this.hideShowHandler("liver"); }}>{this.state.liver.buttonTxt} wątrobę</button>
-                    <button onClick={() => { this.hideShowHandler("stomach"); }}>{this.state.stomach.buttonTxt} Żołądek</button>
-                    <button onClick={() => { this.hideShowHandler("lungs"); }}>{this.state.lungs.buttonTxt} Płuca</button>
-                    <button onClick={() => { this.hideShowHandler("ribCage"); }}>{this.state.ribCage.buttonTxt} klatkę piersiową</button>
-                    <button onClick={() => { this.hideShowHandler("vascularSys"); }}>{this.state.vascularSys.buttonTxt} Naczynia krwionośne</button>
+                    <button onClick={() => { this.hideShowHandler("skull"); }}>{this.state.skull.display?"Ukryj":"Pokaż"} czaszkę</button>
+                    <button onClick={() => { this.hideShowHandler("heart"); }}>{this.state.heart.display?"Ukryj":"Pokaż"} serce</button>
+                    <button onClick={() => { this.hideShowHandler("liver"); }}>{this.state.liver.display?"Ukryj":"Pokaż"} wątrobę</button>
+                    <button onClick={() => { this.hideShowHandler("stomach"); }}>{this.state.stomach.display?"Ukryj":"Pokaż"} Żołądek</button>
+                    <button onClick={() => { this.hideShowHandler("lungs"); }}>{this.state.lungs.display?"Ukryj":"Pokaż"} Płuca</button>
+                    <button onClick={() => { this.hideShowHandler("ribCage"); }}>{this.state.ribCage.display?"Ukryj":"Pokaż"} klatkę piersiową</button>
+                    <button onClick={() => { this.hideShowHandler("vascularSys"); }}>{this.state.vascularSys.display?"Ukryj":"Pokaż"} Naczynia krwionośne</button>
                
                 </MDBCol>
             </MDBRow>
