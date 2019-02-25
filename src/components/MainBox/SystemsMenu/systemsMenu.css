@@ -4,5 +4,11 @@ ul{
     justify-content: center;
    align-items: center;
     height: 100%;
-    
+    padding:10%;
+    margin-left: 6%;
+   
+}
+
+.sysMenuBtn{
+    width:200px;
 }

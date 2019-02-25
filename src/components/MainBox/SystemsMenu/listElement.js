@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const SystemsListElement=(props)=>{
     return <li>
         <Link to={`/${props.route}`}>
-            <MDBBtn color="light-green" >{props.title} </MDBBtn>
+            <MDBBtn color="light-green" className='sysMenuBtn' >{props.title} </MDBBtn>
         </Link>
         
     </li>
