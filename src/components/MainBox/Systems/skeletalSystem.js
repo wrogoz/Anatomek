@@ -5,7 +5,7 @@ const SkeletalSystem=()=>{
     return(
         <SystemBasicComponent 
         imgSrc={skeletalImg}
-        
+        systemName="Układ szkieletowy"
         description="
          Pellentesque mollis lectus a turpis mollis fringilla. 
          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.

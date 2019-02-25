@@ -3,7 +3,8 @@ import DescriptionBasicComponent from './descriptionBasicComponent/descriptionBa
 const HeartComponent = () => {
     return (
         <DescriptionBasicComponent
-            text="Serce - nieustannie pompuje krew, dzięki
+            header="Serce"
+            text=" Nieustannie pompuje krew, dzięki
              czemu jest rozprowadzana po całym organizmie.
              Czasem pęka gdy słyszysz co inni mają do powiedzenia"
         />

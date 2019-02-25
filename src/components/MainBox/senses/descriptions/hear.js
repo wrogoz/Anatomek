@@ -4,6 +4,7 @@ import DescriptionBasicComponent from '../../organs/descriptions/descriptionBasi
 const Hear = () => {
     return (
         <DescriptionBasicComponent
+            header="Słuch"
             text="Your bones don't break, mine do. That's clear.
             Your cells react to bacteria and viruses differently than mine.
             You don't get sick, I do. That's also clear. But for some reason,

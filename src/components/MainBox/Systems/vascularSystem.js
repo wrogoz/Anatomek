@@ -5,7 +5,7 @@ const VascularSystem=()=>{
     return(
         <SystemBasicComponent 
         imgSrc={vascularSystem}
-        
+        systemName="Układ naczyniowy"
         description="
          Pellentesque mollis lectus a turpis mollis fringilla. 
          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.

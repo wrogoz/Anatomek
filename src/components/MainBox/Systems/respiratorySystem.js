@@ -5,7 +5,7 @@ const RespiratorySystem=()=>{
     return(
         <SystemBasicComponent 
         imgSrc={respiratorySystem}
-        
+        systemName="Układ oddechowy"
         description="
         służy do pobierania tlenu i przekazywania go do układu krwionośnego.
          Krew roznosi tlen do każdej żywej komórki.

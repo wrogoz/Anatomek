@@ -3,6 +3,7 @@ import DescriptionBasicComponent from './descriptionBasicComponent/descriptionBa
 const StomachComponent = () => {
     return (
         <DescriptionBasicComponent
+            header="Żołądek"
             text="Rozpuszcza jedzonko - wstępne trawienie ."
         />
     )

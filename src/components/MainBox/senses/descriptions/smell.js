@@ -4,6 +4,7 @@ import DescriptionBasicComponent from '../../organs/descriptions/descriptionBasi
 const Smell =()=>{
     return(
         <DescriptionBasicComponent
+            header="Zapach"
             text="Pachnie chińczykiem"
         />
     )

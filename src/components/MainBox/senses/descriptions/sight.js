@@ -4,6 +4,7 @@ import DescriptionBasicComponent from '../../organs/descriptions/descriptionBasi
 const Sight = () => {
     return (
         <DescriptionBasicComponent
+            header="Wzrok"
             text="Well, the way they make shows is, they make one show.
              That show's called a pilot. Then they show that show to the people who make shows,
               and on the strength of that one show they decide if they're going to make more shows.

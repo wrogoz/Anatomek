@@ -3,6 +3,7 @@ import DescriptionBasicComponent from './descriptionBasicComponent/descriptionBa
 const SmallIntestineComponent = () => {
     return (
         <DescriptionBasicComponent
+            header="Jelito cienkie"
             text="Trawienie jedzonka niom niom."
         />
     )

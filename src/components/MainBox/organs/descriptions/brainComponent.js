@@ -3,7 +3,8 @@ import DescriptionBasicComponent from './descriptionBasicComponent/descriptionBa
 const BrainComponent = () => {
     return (
         <DescriptionBasicComponent
-            text="Mózg - stanowi centrum kontroli nad całym organizmem, odpowiada za myślenie,
+            header="Mózg"
+            text="Stanowi centrum kontroli nad całym organizmem, odpowiada za myślenie,
              uczucia, zapamiętywanie, percepcję"
         />
     )

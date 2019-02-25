@@ -4,6 +4,7 @@ import DescriptionBasicComponent from '../../organs/descriptions/descriptionBasi
 const Touch = () => {
     return (
         <DescriptionBasicComponent
+            header="Dotyk"
             text="Now that we know who you are, I know who I am. I'm n
             ot a mistake! It all makes sense! In a comic, you know how you can tell
              who the arch-villain's going to be? He's the exact opposite of the hero.

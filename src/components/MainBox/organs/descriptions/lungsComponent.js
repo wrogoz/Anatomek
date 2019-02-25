@@ -3,7 +3,8 @@ import DescriptionBasicComponent from './descriptionBasicComponent/descriptionBa
 const LungsComponent = () => {
     return (
         <DescriptionBasicComponent
-            text="Płuca - umożliwiają wymianę gazową."
+            header="Płuca"
+            text="Umożliwiają wymianę gazową."
         />
     )
 }

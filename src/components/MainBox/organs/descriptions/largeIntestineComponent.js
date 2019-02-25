@@ -3,6 +3,7 @@ import DescriptionBasicComponent from './descriptionBasicComponent/descriptionBa
 const LargeIntestineComponent = () => {
     return (
         <DescriptionBasicComponent
+            header="Jelito grube"
             text="Końcowe trawienie, wydalenie resztek jedzonka do nocnika"
         />
     )

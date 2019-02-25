@@ -5,7 +5,7 @@ const MuscleSystem=()=>{
     return(
         <SystemBasicComponent 
         imgSrc={muscleSystem}
-        
+        systemName="Układ mięśniowy"
         description="
          Pellentesque mollis lectus a turpis mollis fringilla. 
          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
