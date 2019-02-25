@@ -1,0 +1,17 @@
+.starter{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:2%;
+   
+}
+.starter h1{
+    margin-bottom: 3%;
+}
+.starter h2{
+    padding:5%;
+}
+.starter h3{
+    margin-top:2%;
+    padding-left: 80%;
+}
