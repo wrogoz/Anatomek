@@ -2,10 +2,9 @@ import React, { Component } from "react";
 import {MDBRow,MDBCol, MDBContainer } from "mdbreact";
 import { BrowserRouter as Router} from 'react-router-dom'
 import Header from './components/header/header'
-import Navigation from './components/nav/navigation'
 import MainBox from './components/MainBox/mainBox'
 import Footer from './components/footer/footer'
-
+import NaviRwd from './components/nav/NaviRWD'
 
 class App extends Component {
 
@@ -23,7 +22,7 @@ class App extends Component {
         <MDBRow className="no-gutters  ">
 
           <MDBCol md="2" >
-              <Navigation/>
+              <NaviRwd/>
         </MDBCol>
 
           <MDBCol md="10" >

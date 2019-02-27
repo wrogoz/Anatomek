@@ -14,31 +14,31 @@ import './phantom.css'
 class Phantom extends React.Component{
    state={
         skull:{
-                display:true,
+                display:false,
                 info:'text'
         },
         heart: {
-            display: true,
+            display: false,
             info: 'text'
         },
         liver: {
-            display: true,
+            display: false,
             info: 'text',
         },
         stomach: {
-            display: true,
+            display: false,
             info: 'text'
         },
         lungs: {
-            display: true,
+            display: false,
             info: 'text'
         },
         ribCage: {
-            display: true,
+            display: false,
             info: 'text'
         },
         vascularSys: {
-            display: true,
+            display: false,
             info: 'text'
         }
     
