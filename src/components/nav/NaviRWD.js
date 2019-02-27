@@ -13,7 +13,6 @@ class NaviRwd extends React.Component{
       });
     
       componentDidMount() {
-        this.Resize();
         window.addEventListener('resize', this.Resize)
       }
 
