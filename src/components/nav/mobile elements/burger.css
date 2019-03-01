@@ -7,6 +7,8 @@
     margin:0;
     box-shadow: none;
     left:0;
+    padding-left:0;
+    padding-top: 4%;
    
 }
 #burgerNav span{
@@ -16,13 +18,13 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    width:80vw;
+    width:90vw;
     height: 100vh;
     background-color:rgba(0, 161, 241, 0.8);
     margin:0;
     padding:0;
-    font-size:3rem;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-size:2rem;
+    
     
 }
 #burgerNav ul a{

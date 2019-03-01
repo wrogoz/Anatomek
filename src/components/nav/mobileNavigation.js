@@ -21,8 +21,8 @@ class MobileNavigation extends React.Component{
             return (
                <Burger/>
             )
-         }else{
-                return null
+        }else{
+            return null
         }
 }
 }

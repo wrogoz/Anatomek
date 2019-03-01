@@ -22,11 +22,11 @@ class App extends Component {
 
           <MDBRow className="no-gutters  ">
 
-              <MDBCol md="2" >
+              <MDBCol  md="2" >
                   <Navigation/>
               </MDBCol>
 
-              <MDBCol md="10" >
+              <MDBCol  md="10" >
                   <MainBox/>
               </MDBCol>
           </MDBRow>
