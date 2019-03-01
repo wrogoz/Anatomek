@@ -1,0 +1,25 @@
+
+#burgerNav
+{
+   
+    position: absolute;
+    z-index: 9000;
+    margin:0;
+    box-shadow: none;
+    left:0;
+   
+}
+#burgerNav ul{
+    width:80vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0, 161, 241, 0.8);
+    margin:0;
+    padding:0;
+    
+}
+#burgerNav ul a{
+    color:#fff;
+}

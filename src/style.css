@@ -8,3 +8,8 @@ a{
 a:hover{
     color:#FFBB00
 }
+
+#burger{
+    position: absolute;
+    z-index: 1000;
+}
