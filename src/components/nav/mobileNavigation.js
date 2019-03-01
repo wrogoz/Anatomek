@@ -1,8 +1,11 @@
 import React from 'react';
-import Navigation from './navigation';
+import Burger from './mobile elements/burger'
 
 
-class NaviRwd extends React.Component{
+    
+
+
+class MobileNavigation extends React.Component{
     state = {
         width:window.innerWidth
     }
@@ -18,14 +21,14 @@ class NaviRwd extends React.Component{
 
     render() {
         
-        if (this.state.width > 768) {
-         return(
-            <Navigation/>
-             )
-    }else{
-        return <div></div>
-    }
+        if (this.state.width < 768) {
+            return (
+               <Burger/>
+            )
+         }else{
+                return null
+        }
 }
 }
 
-export default NaviRwd
+export default MobileNavigation;
