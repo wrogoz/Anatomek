@@ -1,10 +1,6 @@
 import React from 'react';
 import Burger from './mobile elements/burger'
 
-
-    
-
-
 class MobileNavigation extends React.Component{
     state = {
         width:window.innerWidth

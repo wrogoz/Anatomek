@@ -11,36 +11,36 @@ class App extends Component {
   render(){
       return(
       <Router>
-    <MDBContainer fluid  >
-    {/* Header */}
-        <MobileNavigation/>
-      <MDBRow >
+       <MDBContainer fluid  >
+          {/* Header */}
+          <MobileNavigation/>
+          <MDBRow >
               <Header/>
-      </MDBRow>
+          </MDBRow>
 
-    {/* navi + mainBox */}
+          {/* navi + mainBox */}
 
-        <MDBRow className="no-gutters  ">
+          <MDBRow className="no-gutters  ">
 
-          <MDBCol md="2" >
-              <Navigation/>
-        </MDBCol>
+              <MDBCol md="2" >
+                  <Navigation/>
+              </MDBCol>
 
-          <MDBCol md="10" >
-              <MainBox/>
-        </MDBCol>
-      </MDBRow>
+              <MDBCol md="10" >
+                  <MainBox/>
+              </MDBCol>
+          </MDBRow>
 
-      {/* footer */}
-      <MDBRow>
+          {/* footer */}
+          <MDBRow>
 
-          <MDBCol md="12" >
-            <Footer />
-          </MDBCol>
+              <MDBCol md="12" >
+                    <Footer />
+              </MDBCol>
 
-      </MDBRow>
-    </MDBContainer>
-    </Router>)
+              </MDBRow>
+        </MDBContainer>
+        </Router>)
     
   }
   
