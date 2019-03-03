@@ -47,6 +47,15 @@
     top: 21%;
     right: 39%;
 }
+@-moz-document url-prefix() {
+  #stomachPhantom {
+    right:44%;
+  }
+  #lungsPhantom{
+    right: 37%;
+  }
+}
+
 
 
 .secondPhantomCol{
