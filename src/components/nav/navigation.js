@@ -25,7 +25,7 @@ class Navigation extends React.Component{
                     <li> <Link to={`/systems`}> Systemy Ciała </Link> </li>
                     <li> <Link to={`/organs`}> Organy </Link> </li>
                     <li> <Link to={`/senses`}> Zmysły </Link> </li>
-                    <li> <Link to={`/fantom`}> Oddaj nerkę </Link> </li>
+                    <li> <Link to={`/fantom`}> Fantom </Link> </li>
                 </ul>
             )
          }else{
