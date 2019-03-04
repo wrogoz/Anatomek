@@ -60,7 +60,29 @@
 
 .secondPhantomCol{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    padding:2% 0;
 }
+
+.phantomBtn{
+    width:170px;
+    font-size:0.7rem;
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .secondPhantomCol{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .phantomBtn{
+        font-size:0.6rem;
+    }
+  }

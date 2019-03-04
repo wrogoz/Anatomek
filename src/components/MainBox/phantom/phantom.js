@@ -1,5 +1,5 @@
 import React from 'react'
-import { MDBCol, MDBRow, } from 'mdbreact';
+import { MDBCol, MDBRow,MDBBtn  } from 'mdbreact';
 import human from './images/human.svg';
 import humanNovasc from './images/humanWithoutVascular.svg'
 import skull from './images/skull.svg';
@@ -86,14 +86,41 @@ class Phantom extends React.Component{
 
                 </MDBCol>
                 <MDBCol md="6" className="secondPhantomCol">
-                    <button onClick={() => { this.hideShowHandler("skull"); }}>{this.state.skull.display?"Ukryj":"Pokaż"} czaszkę</button>
-                    <button onClick={() => { this.hideShowHandler("heart"); }}>{this.state.heart.display?"Ukryj":"Pokaż"} serce</button>
-                    <button onClick={() => { this.hideShowHandler("liver"); }}>{this.state.liver.display?"Ukryj":"Pokaż"} wątrobę</button>
-                    <button onClick={() => { this.hideShowHandler("stomach"); }}>{this.state.stomach.display?"Ukryj":"Pokaż"} Żołądek</button>
-                    <button onClick={() => { this.hideShowHandler("lungs"); }}>{this.state.lungs.display?"Ukryj":"Pokaż"} Płuca</button>
-                    <button onClick={() => { this.hideShowHandler("ribCage"); }}>{this.state.ribCage.display?"Ukryj":"Pokaż"} klatkę piersiową</button>
-                    <button onClick={() => { this.hideShowHandler("vascularSys"); }}>{this.state.vascularSys.display?"Ukryj":"Pokaż"} Naczynia krwionośne</button>
-               
+                    <MDBBtn
+                        className="phantomBtn" 
+                        color="light-green"
+                        onClick={() => { this.hideShowHandler("skull"); }}>{this.state.skull.display?"Ukryj":"Pokaż"} czaszkę
+                    </MDBBtn>
+                    <MDBBtn 
+                        className="phantomBtn" 
+                        color="light-green" 
+                        onClick={() => { this.hideShowHandler("heart"); }}>{this.state.heart.display?"Ukryj":"Pokaż"} serce
+                    </MDBBtn>
+                    <MDBBtn 
+                        className="phantomBtn" 
+                        color="light-green" 
+                        onClick={() => { this.hideShowHandler("liver"); }}>{this.state.liver.display?"Ukryj":"Pokaż"} wątrobę
+                    </MDBBtn>
+                    <MDBBtn 
+                        className="phantomBtn" 
+                        color="light-green" 
+                        onClick={() => { this.hideShowHandler("stomach"); }}>{this.state.stomach.display?"Ukryj":"Pokaż"} Żołądek
+                    </MDBBtn>
+                    <MDBBtn 
+                        className="phantomBtn" 
+                        color="light-green" 
+                        onClick={() => { this.hideShowHandler("lungs"); }}>{this.state.lungs.display?"Ukryj":"Pokaż"} Płuca
+                    </MDBBtn>
+                    <MDBBtn 
+                        className="phantomBtn" 
+                        color="light-green" 
+                        onClick={() => { this.hideShowHandler("ribCage"); }}>{this.state.ribCage.display?"Ukryj":"Pokaż"} klatkę piersiową
+                    </MDBBtn>
+                    <MDBBtn 
+                        className="phantomBtn" 
+                        color="light-green" 
+                        onClick={() => { this.hideShowHandler("vascularSys"); }}>{this.state.vascularSys.display?"Ukryj":"Pokaż"} Naczynia krwionośne
+                    </MDBBtn>       
                 </MDBCol>
             </MDBRow>
         )
