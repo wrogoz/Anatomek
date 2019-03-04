@@ -23,7 +23,7 @@ align-self: flex-end
   color:#F65314;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 500px) {
   .header__items{
     
     font-size: 2rem;

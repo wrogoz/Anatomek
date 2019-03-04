@@ -17,7 +17,7 @@ class MobileNavigation extends React.Component{
 
     render() {
         
-        if (this.state.width < 768) {
+        if (this.state.width <= 767) {
             return (
                <Burger/>
             )
