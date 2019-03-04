@@ -12,3 +12,10 @@ ul{
 .sysMenuBtn{
     width:200px;
 }
+@media (min-height: 1000px) {
+    ul{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+}

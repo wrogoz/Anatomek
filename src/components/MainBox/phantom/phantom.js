@@ -55,7 +55,7 @@ class Phantom extends React.Component{
     
     render(){
         return (
-            <MDBRow className="mainBox no-gutters">
+            <MDBRow className="mainBox no-gutters phantomBox">
                 <MDBCol md="6" className="firstPhantomCol">
                    <div id="humanPhantom">
                         {this.state.vascularSys.display === true ? <img src={human} alt="human" /> : <img src={humanNovasc} alt="human" />}

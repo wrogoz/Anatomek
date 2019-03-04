@@ -18,3 +18,14 @@ img.systemImg{
 .secondCol p{
     padding:2%;
 }
+@media (min-height: 1000px) {
+    .systemBox{
+     
+        align-items: center;
+        justify-content: center;
+        max-height: 62vh;
+        padding:3%;
+    }
+    
+    
+}

@@ -8,11 +8,11 @@ class Header extends React.Component {
        
         return (
             <MDBCol md="12">
-                <header className="headerbox ">
-                        <div className="header__items" >  
+                <header className="headerbox header__items">
+                         
                             <img src={anatomek} alt={anatomek}/>    
                             <p>Ana<span>tomek</span></p>  
-                        </div>      
+                          
                     </header>
             </MDBCol>
         );

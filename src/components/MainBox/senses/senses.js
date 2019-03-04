@@ -19,7 +19,7 @@ import Touch from './descriptions/touch';
 
 const Senses = () => {
     return (
-        <MDBRow className="mainBox no-gutters ">
+        <MDBRow className="mainBox no-gutters sensesBox">
             <MDBCol md="6" className="firstSensesCol ">
                 <Link to={`/senses/sight`} id="sight">
                     <img src={sightImg} alt="sight" className="imgSize" />

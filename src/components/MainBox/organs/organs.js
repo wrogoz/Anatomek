@@ -21,14 +21,12 @@ import Heart from './images/heart.svg'
 import './organs.css'
 const Organs = () => {
     return (
-        <MDBRow className="mainBox no-gutters">
-            <MDBCol md="6" className="firstOrgansCol">
-
+        <MDBRow className="mainBox no-gutters organsBox">
+            <MDBCol md="8" lg="6"  className="firstOrgansCol">
 
                 <img src={Girl} alt="girl " id="girl" />
-                
-                <Link to={`/organs/brain`} id="brain">
-                    <img src={Brain} alt="brain "  />
+                <Link to={`/organs/brain`} >
+                    <img src={Brain} alt="brain " id="brain" />
                 </Link>
                 <Link to={`/organs/lungs`}>
                     <img src={Lungs} alt="lungs " id="lungs" />
@@ -50,7 +48,7 @@ const Organs = () => {
                 </Link>
 
             </MDBCol>
-            <MDBCol md="6" className="secondOrgansCol">
+            <MDBCol  md="4" lg="6"  className="secondOrgansCol">
                 <Route exact path="/organs" component={OrgansStarter} />
                 <Route exact path="/organs/liverComponent" component={LiverComponent} />
                 <Route exact path="/organs/heart" component={HeartComponent} />
@@ -59,8 +57,6 @@ const Organs = () => {
                 <Route exact path="/organs/stomach" component={StomachComponent} />
                 <Route exact path="/organs/smallIntestine" component={SmallIntestineComponent} />
                 <Route exact path="/organs/largeIntestine" component={LargeIntestineComponent} />
-
-
             </MDBCol>
         </MDBRow>
     )

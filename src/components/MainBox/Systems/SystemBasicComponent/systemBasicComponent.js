@@ -5,7 +5,7 @@ import './SystemBasicComponent.css'
 const SystemBasicComponent=(props)=>{
     console.log(props)
     return(
-        <MDBRow className="mainBox no-gutters">
+        <MDBRow className="mainBox no-gutters systemBox">
             <MDBCol md="6" className="firstCol">
                 <img className="systemImg"
                 src={props.imgSrc} 

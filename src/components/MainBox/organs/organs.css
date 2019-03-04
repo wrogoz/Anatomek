@@ -18,9 +18,10 @@
     position:relative;
 }
 #brain{
-    height:33%;
+    height:17%;
     position:absolute;
     top:5%;
+    right:calc(50% - 35px);
 }
 #lungs{
     height:17%;
@@ -57,4 +58,18 @@
     position:absolute;
     bottom:28%;
     left:10%;
+}
+@media (min-height: 1000px) {
+    .organsBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+    div.description p{
+        min-width:50vw;
+        padding:0;
+        margin:0;
+        text-align: center;
+    }
 }

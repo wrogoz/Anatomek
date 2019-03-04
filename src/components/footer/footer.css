@@ -10,3 +10,10 @@
     font-size:1.5rem;
    
 }
+
+@media (min-height: 1000px) {
+    .footer{
+        min-height:15vh;
+    }
+       
+    }
