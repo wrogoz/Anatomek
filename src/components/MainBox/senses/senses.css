@@ -49,3 +49,25 @@
     }
     
 }
+@media (min-width: 1200px) {
+    #hear{
+        position: absolute;
+        right: 25%;
+        top: 20%;
+    }
+    #taste{
+        position: absolute;
+        left: 25%;
+        top:  20%;
+    }
+    #touch{
+        position: absolute;
+        left: 25%;
+        bottom: 20%;
+    }
+    #smell{
+        position: absolute;
+        right: 25%;
+        bottom: 20%;
+    }
+}

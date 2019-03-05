@@ -2,7 +2,10 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding-top:2%;
+    justify-content: space-between;
+    padding-top:3%;
+    padding-bottom: 2%;
+    
    
 }
 .starter h3{
@@ -16,5 +19,12 @@
 }
 .starter h3{
     margin-top:2%;
-    padding-left: 80%;
+    padding-left: 70%;
+}
+@media (max-width: 450px) {
+    .starter h3{
+        margin-top:2%;
+        padding-left: 65%;
+        padding-bottom: 2%;
+    }
 }
