@@ -110,7 +110,7 @@
    } 
    .firstPhantomCol{
     padding-bottom: 10%;
-}
+    }
    .secondPhantomCol{
     display:flex;
     flex-direction: row;
@@ -119,6 +119,5 @@
     
     padding:2% 0;
     min-width:80vw;
-}
-       
     }
+}

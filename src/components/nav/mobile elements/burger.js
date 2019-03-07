@@ -40,7 +40,7 @@ render() {
                   <MDBNavLink to="/senses">Zmysły</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="/fantom">Oddaj nerkę</MDBNavLink>
+                  <MDBNavLink to="/fantom">Fantom</MDBNavLink>
                 </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>

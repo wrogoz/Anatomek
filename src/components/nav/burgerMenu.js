@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBNavbar, MDBNavbarBrand, NavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBContainer }
+import { MDBNavbar, MDBNavbarToggler, MDBCollapse}
     from 'mdbreact';
 import Navigation from './navigation';
 import './navigation.css'    
