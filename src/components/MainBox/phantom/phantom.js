@@ -8,6 +8,9 @@ import liver from './images/liver.svg';
 import heart from './images/heart.svg';
 import lungs from './images/lungs.svg';
 import stomach from './images/stomach.svg';
+import intestine from './images/intestine.svg'
+import urinary from './images/urinarySystem.svg'
+import esophagus from './images/esophagus.svg'
 import './phantom.css'
 
 
@@ -40,7 +43,19 @@ class Phantom extends React.Component{
         vascularSys: {
             display: false,
             info: 'text'
-        }
+        },
+       intestine: {
+           display: false,
+           info: 'text'
+       },
+       urinary: {
+           display: false,
+           info: 'text'
+       },
+       esophagus: {
+           display: false,
+           info: 'text'
+       }
     
 }
     hideShowHandler = (organ) => {
@@ -79,6 +94,15 @@ class Phantom extends React.Component{
                         {this.state.lungs.display === true ? <div id="lungsPhantom">
                             <img src={lungs} alt="lungs" />
                         </div>:null}
+                        {this.state.intestine.display === true ? <div id="intestinePhantom">
+                            <img src={intestine} alt="intestine" />
+                        </div> : null}
+                        {this.state.urinary.display === true ? <div id="urinaryPhantom">
+                            <img src={urinary} alt="urinary" />
+                        </div> : null}
+                        {this.state.esophagus.display === true ? <div id="esophagusPhantom">
+                            <img src={esophagus} alt="esophagus" />
+                        </div> : null}
                         
                     </div>
                     
@@ -120,7 +144,22 @@ class Phantom extends React.Component{
                         className="phantomBtn" 
                         color="light-green" 
                         onClick={() => { this.hideShowHandler("vascularSys"); }}>{this.state.vascularSys.display?"Ukryj":"Pokaż"} Naczynia krwionośne
-                    </MDBBtn>       
+                    </MDBBtn>      
+                    <MDBBtn
+                        className="phantomBtn"
+                        color="light-green"
+                        onClick={() => { this.hideShowHandler("intestine"); }}>{this.state.intestine.display ? "Ukryj" : "Pokaż"} Jelita
+                    </MDBBtn> 
+                    <MDBBtn
+                        className="phantomBtn"
+                        color="light-green"
+                        onClick={() => { this.hideShowHandler("urinary"); }}>{this.state.urinary.display ? "Ukryj" : "Pokaż"} Układ moczowy
+                    </MDBBtn>
+                    <MDBBtn
+                        className="phantomBtn"
+                        color="light-green"
+                        onClick={() => { this.hideShowHandler("esophagus"); }}>{this.state.esophagus.display ? "Ukryj" : "Pokaż"} Przełyk
+                    </MDBBtn>
                 </MDBCol>
             </MDBRow>
         )

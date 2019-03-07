@@ -37,9 +37,9 @@
 }
 #stomachPhantom{
     position: absolute;
-    height: 6%;
+    height: 7%;
     top: 31%;
-    right: 39%;
+    right: 40%;
 }
 #lungsPhantom{
     position: absolute;
@@ -47,9 +47,24 @@
     top: 21%;
     right: 39%;
 }
+#intestinePhantom{
+    position: absolute;
+    top:36.5%;
+    left:40.3%;
+}
+#urinaryPhantom{
+    position: absolute;
+    top:44.8%;
+    left:45.3%;
+}
+#esophagusPhantom{
+    position: absolute;
+    top:14.2%;
+    left:49%;
+}
 @-moz-document url-prefix() {
   #stomachPhantom {
-    right:44%;
+    right:46%;
   }
   #lungsPhantom{
     right: 37%;
