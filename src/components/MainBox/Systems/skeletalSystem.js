@@ -7,12 +7,8 @@ const SkeletalSystem=()=>{
         imgSrc={skeletalImg}
         systemName="Układ szkieletowy"
         description="
-         Pellentesque mollis lectus a turpis mollis fringilla. 
-         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-          Aenean eget mi fringilla, egestas odio quis, facilisis lorem. Nunc ut tortor et turpis congue
-          rdiet. Aenean sed diam quis nisl consequat porta. Duis arcu nibh, consequat non massa sit amet,
-           sagittis aliquet magna. 
-Morbi non eros velit. Mauris porttitor libero ac mi mattis ornare." 
+         Szkielet stanowi podporę twojego ciała. Tworzy go ponad 200 kości! Kości są wprawiane w ruch przez ponad 400 mięśni.
+         Z kolei by kości mogły zmieniać położenie względem siebie, funkcjonują między innymi specjalne ruchome połączenia - stawy." 
 />
     )
 }

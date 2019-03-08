@@ -31,7 +31,9 @@
     bottom:10%;
     right: 15%;
 }
-
+.secondSensesCol{
+    padding-top: 5%
+}
 
 @media (min-height: 1000px) {
     .sensesBox{
