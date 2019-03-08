@@ -18,12 +18,14 @@
 #girl{
     position:relative;
 }
+
 #brain{
     height:17%;
     position:absolute;
     top:5%;
     right:calc(50% - 35px);
 }
+
 #lungs{
     height:17%;
     position:absolute;
@@ -72,5 +74,10 @@
         padding:0;
         margin:0;
         text-align: center;
+    }
+}
+@media (min-width: 1000px) {
+    #brain{
+        right:calc(50% - 46px);
     }
 }

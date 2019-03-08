@@ -4,11 +4,11 @@ const SmallIntestineComponent = () => {
     return (
         <DescriptionBasicComponent
             header="Jelito cienkie"
-            text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-             totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos 
-              qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-               adipisci velit, sed quia non numquam eius modi tempora incidunt ut ."
+            text="To tu dzięki sokom różnym sokom trawiennym miazga pokarmowa zostaje przekształcona w jeszcze bardziej klarowny płyn zwany mleczem.
+            Teraz pokarmy, zredukowane do bardzo małych cząsteczek znajdujących się w mleczu,
+            mogą być wchłonięte przez organizm. Wchłanianie jest możliwe dzięki kosmkom jelitowym.
+            Znajdują się one w ścianach jelita cienkiego, kształcem przypominają minipalce i działają jak bibuła, a przez to pokarm lepiej się wchłania.
+            Kiedy substancje odżywcze zostaną wchłonięte, róznymi drogami przechodzą do komórek całego organizmu."
         />
     )
 }

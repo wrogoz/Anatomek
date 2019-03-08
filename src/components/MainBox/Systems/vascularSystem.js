@@ -7,12 +7,14 @@ const VascularSystem=()=>{
         imgSrc={vascularSystem}
         systemName="Układ naczyniowy"
         description="
-         Pellentesque mollis lectus a turpis mollis fringilla. 
-         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-          Aenean eget mi fringilla, egestas odio quis, facilisis lorem. Nunc ut tortor et turpis congue
-          rdiet. Aenean sed diam quis nisl consequat porta. Duis arcu nibh, consequat non massa sit amet,
-           sagittis aliquet magna. 
-Morbi non eros velit. Mauris porttitor libero ac mi mattis ornare." 
+        To dzięki niemu natleniona krew dociera do wszystkich tkanek twojego organizmu.
+        Składa się on z tętnic, żył oraz pompy - serca.
+        Krew zawierająca dwutlenek węgla wpada do serca żyłami głównymi, a wydostaje się z niego poprzez tętnicę płucną, 
+        która doprowadza ją do płuc. Tam coraz mniejszymi naczyniami krwionośnymi dociera do pęcherzyków płucnych, gdzie oddaje dwutlenek węgla,
+        a pobiera tlen. Małe naczynia krwionośne to naczynia włosowate. Tworzą one sieć tętniczo-żylną i łączą się w coraz większe naczynia.
+        Te tworzą coraz większe żyły, które dostarczają natlenioną krew do serca. Następnie natleniona krew wypływa z serca tym razem przez aortę 
+        (tętnicę główną) która rozprowadza ją do innych mniejszych tętnic, które rozprowadzają ją po całym twoim ciele.
+        " 
 />
     )
 }

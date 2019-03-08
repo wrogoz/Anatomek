@@ -7,12 +7,10 @@ const MuscleSystem=()=>{
         imgSrc={muscleSystem}
         systemName="Układ mięśniowy"
         description="
-         Pellentesque mollis lectus a turpis mollis fringilla. 
-         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-          Aenean eget mi fringilla, egestas odio quis, facilisis lorem. Nunc ut tortor et turpis congue
-          rdiet. Aenean sed diam quis nisl consequat porta. Duis arcu nibh, consequat non massa sit amet,
-           sagittis aliquet magna. 
-Morbi non eros velit. Mauris porttitor libero ac mi mattis ornare." 
+         Chodzisz, biegasz, skaczesz, oddychasz, mrużysz oczy, mówisz - to wszystko dzieje się za sprawą mięśni.
+         Jest ich około 400(niektóre bardzo małe, inne duże i silne), stanowią prawie połowę masy twojego ciała.
+         Potrzebujesz ich aż tylu, by wykonywać zróżnicowane i skoordynowane ruchy. Mięśnie łączą się z innymi częściami ciała: z kośćmi 
+          (są bezpośrednio powiązane za pomocą ścięgien), ze skórą ( np.mięśnie twarzy) czy z błoną śluzową (np. mięśnie języka)" 
 />
     )
 }
