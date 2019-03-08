@@ -5,11 +5,11 @@ const Touch = () => {
     return (
         <DescriptionBasicComponent
             header="Dotyk"
-            text="Now that we know who you are, I know who I am. I'm n
-            ot a mistake! It all makes sense! In a comic, you know how you can tell
-             who the arch-villain's going to be? He's the exact opposite of the hero.
-              And most times they're friends, 
-            like you and me! I should've known way back "
+            text="Napewno nie raz bawiłeś się w rozpoznanie z zamkniętymi oczami jakiegoś przedmiotu.
+            Prawda, że zadanie nie było trudne? Zawdzięczasz to zmysłowi dotyku. Kiedy dotykasz jakiegoś przedmiotu,
+            zakończenia nerwowe odbierają bodziec i przesyłają wiadomość do twojego mózgu. Dzięki temu mechanizmowi dostrzegasz różnorodność środowiska,
+             w którym żyjesz. Receptory są umieszczone na całej powierzchni skóry. Odbierają bodźce zewnętrzne
+            i w postaci impulsów przekazują je do kory mózgowej. Za prawidłowe działanie zmysłu dotyku odpowiadają wyspecjalizowane zakończenia nerwowe licznie występujące w skórze właściwej."
         />
     )
 }

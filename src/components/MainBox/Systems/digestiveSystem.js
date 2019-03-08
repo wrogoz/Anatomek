@@ -9,7 +9,8 @@ const DigestiveSystem=()=>{
         description="
         Składa się z organów, które współgrając ze sobą, 
         umożliwiają trawienie pokarmu i wchłanianie substancji odżywczych. Składa się z jamy ustnej,
-         gardła, przełyku, żołądka, jelita cienkiego i grubego, a także gruczołów: wątroby i trzustki.
+         gardła, przełyku, żołądka, jelita cienkiego i grubego, a także gruczołów trawiennych: wątroby i trzustki, 
+         które wydzielają substancje konieczne do przetwarzania składników pokarmowych.
          Zbędne produkty przemiany materii są natomiast usuwane przez układ wydalniczy." 
 />
     )
