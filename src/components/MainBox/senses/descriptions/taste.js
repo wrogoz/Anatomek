@@ -5,10 +5,9 @@ const Taste = () => {
     return (
         <DescriptionBasicComponent
             header="Smak"
-            text="Now that there is the Tec-9, a crappy spray gun from South Miami.
-             This gun is advertised as the most popular gun in American crime.
-              Do you believe that shit? It actually says that in the little book that comes with it:
-               the most popular gun in American crime. Like they're actually proud of that shit. 
+            text="Dzięki temu zmysłowi, za pomocą języka jesteś w stanie poddać analizie chemicznej to co właśnie zjadasz.
+            Ludzie mają 5 rodzajów receptorów smakowych, odpowiadających najważniejszym grupom substancji chemicznych znajdujących się w pożywieniu.
+            Możemy rozróżnić smak słodki(cukry), słony(sole sodu i potasu), kwaśny(kwasy), gorzki(zasady i sole nieorganiczne) oraz umami(kwas glutaminowy).
 "
         />
     )
