@@ -3,4 +3,15 @@
     height:100%;
     min-height: 72vh;
     
+    
 }
+
+@media (min-width: 1000px) {
+    .mainBox{
+    
+    max-height: 72vh;
+    }
+    
+}
+
+ 

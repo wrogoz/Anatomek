@@ -38,6 +38,12 @@ align-self: flex-end
   }
 }
 
+@media (min-width: 1365px) {
+  .header__items{
+    font-size: 3rem;
+  }
+     
+  }
 @media (min-height: 1000px) {
   .header__items{
     font-size: 6rem;

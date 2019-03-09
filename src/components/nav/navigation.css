@@ -20,3 +20,9 @@ ul#navBox{
      
      
 }
+@media (min-width: 1000px) {
+    ul#navBox{
+        font-size: 1.5rem;
+    
+    }
+}
