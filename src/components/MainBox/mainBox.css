@@ -13,5 +13,14 @@
     }
     
 }
+@media (min-height: 1000px) {
+    .mainBox{
+    display:flex;
+    align-items: center;
+    
+    
+}
+    
+}
 
  

@@ -57,41 +57,31 @@
 }
     
 }
-@media (min-width: 1200px) {
-    .imgSize{
-    height: 90px;
-}
-.secondSensesCol{
-        padding-top: 0;
-    }
 
-    #hear{
-        position: absolute;
-        right: 25%;
-        top: 20%;
+@media (min-height: 1000px) and (min-width:1000px) {
+    .firstSensesCol{
+        margin:auto auto;
     }
-    #taste{
-        position: absolute;
-        left: 25%;
-        top:  20%;
+    .secondSensesCol{
+        font-size: 1.1rem;
+        margin:auto auto;
     }
-    #touch{
-        position: absolute;
-        left: 25%;
-        bottom: 20%;
+    .sensesBox{
+        display:flex;
+        align-items: center;
     }
-    #smell{
-        position: absolute;
-        right: 25%;
-        bottom: 20%;
+    @-moz-document url-prefix() {
+       .firstSensesCol{
+        margin:auto auto;
     }
-    
-     @-moz-document url-prefix() {
-        .firstSensesCol{
-        height:70vh !important;
+    .description{
+        padding: 0;
+    }
+    }
+}
+@media (min-height: 1000px) and (min-width:1300px) {
+     .secondSensesCol{
+        font-size: 1.4rem;
     }
     
 }
-}
-
-

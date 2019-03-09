@@ -4,18 +4,17 @@
    align-items: center;
     background-color: #7CBB00;
     padding:1%;
-    
+   
     font-family: 'Gloria Hallelujah', cursive;
     color:#fff;
-    font-size:1.3rem;
+    font-size:1.4rem;
    
 }
 
 @media (min-height: 1000px) {
     .footer{
         min-height:10vh;
-    }
-       
+    }    
 }
 @media (max-width: 500px) {
     .footer{

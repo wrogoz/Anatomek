@@ -78,26 +78,55 @@ div.description p{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         width:100%;
     }
+    @-moz-document url-prefix() {
+        .organsBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+    }
+}
     div.description p{
+        display:flex;
         min-width:20vw;
-        padding:0;
+        padding-top:10%;
         margin:0;
         text-align: center;
         
     }
+    
     .firstOrgansCol{
         height:50vh !important;
     }
+    .secondOrgansCol{
+        font-size: 1.3rem;
+    }
+}
     
    
+
+@media (min-height: 1000px) and (max-width:768px){
+
+.secondOrgansCol{
+        display:flex;
+        min-width:100%;
+    }
+}
+@media (min-width: 1799px) {
+
+.secondOrgansCol{
+        font-size:1.6rem;
+    }
 }
 
 
 @media (min-width: 1000px) {
     #brain{
-        right:calc(50% - 36px);
+        right:calc(50% - 45px);
     
 }
  @-moz-document url-prefix() {
@@ -106,4 +135,16 @@ div.description p{
     }
 }
 
+}
+@media (min-width: 1000px)and (min-height:1000px) {
+    #brain{
+        right:calc(50% - 45px);
+    
+    }
+    @-moz-document url-prefix() {
+        #brain{
+        right:calc(50% - 35px);
+    
+    }
+}
 }
