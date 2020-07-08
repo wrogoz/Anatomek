@@ -1,8 +1,10 @@
 # Anatomek
  Learn human anatomy (for kids)
+# Demo
+ https://wrogoz.github.io/Anatomek/
 
 
-# Technologies: 
+# Technologies:
 - ES6
 - React
 - Webpack
@@ -10,7 +12,7 @@
 
 # Features:
 
-- Body systems 
+- Body systems
 - Organs description
 - Senses description
 - Add or Cut organs on phantom
