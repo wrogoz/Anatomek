@@ -10,7 +10,7 @@ class App extends Component {
 
   render(){
       return(
-      <Router>
+      <Router >
        <MDBContainer fluid  >
           {/* Header */}
           <MobileNavigation/>
@@ -41,9 +41,9 @@ class App extends Component {
               </MDBRow>
         </MDBContainer>
         </Router>)
-    
+
   }
-  
+
 };
 
 export default App;

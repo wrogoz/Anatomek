@@ -1,7 +1,7 @@
 # Anatomek
  Learn human anatomy (for kids)
 # Demo
- https://wrogoz.github.io/Anatomek/
+ https://wrogoz.github.io/anatomek/
 
 
 # Technologies:

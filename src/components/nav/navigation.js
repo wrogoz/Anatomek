@@ -11,13 +11,13 @@ class Navigation extends React.Component{
         width: window.innerWidth
 
       });
-    
+
       componentDidMount() {
         window.addEventListener('resize', this.Resize)
       }
 
     render() {
-        
+
         if (this.state.width > 767) {
             return (
                 <ul id="navBox">
