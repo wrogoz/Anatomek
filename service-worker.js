@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/anatomek/precache-manifest.4751f4847d74c7c2a5941dd615dc7dfa.js"
+  "/anatomek/precache-manifest.fca49d8e842dddbd37c8d0e251032bd3.js"
 );
 
 workbox.clientsClaim();

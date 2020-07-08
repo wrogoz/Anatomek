@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e6f40475947a16b97be6",
+    "revision": "67ba94a5056e869e9c86",
     "url": "/anatomek/static/css/main.68adfea9.chunk.css"
   },
   {
-    "revision": "e6f40475947a16b97be6",
-    "url": "/anatomek/static/js/main.e6f40475.chunk.js"
+    "revision": "67ba94a5056e869e9c86",
+    "url": "/anatomek/static/js/main.67ba94a5.chunk.js"
   },
   {
     "revision": "ab2943e9b100d473803d",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/anatomek/static/media/stomach.f540c106.svg"
   },
   {
-    "revision": "c1868c9545d2de1cf8488f1dadd8c9d0",
-    "url": "/anatomek/static/media/fa-brands-400.c1868c95.eot"
-  },
-  {
     "revision": "a06da7f0950f9dd366fc9db9d56d618a",
     "url": "/anatomek/static/media/fa-brands-400.a06da7f0.woff2"
+  },
+  {
+    "revision": "c1868c9545d2de1cf8488f1dadd8c9d0",
+    "url": "/anatomek/static/media/fa-brands-400.c1868c95.eot"
   },
   {
     "revision": "ec3cfddedb8bebd2d7a3fdf511f7c1cc",
@@ -128,24 +128,24 @@ self.__precacheManifest = [
     "url": "/anatomek/static/media/fa-solid-900.ec763292.svg"
   },
   {
-    "revision": "dfe56a876d0282555d1e2458e278060f",
-    "url": "/anatomek/static/media/Roboto-Thin.dfe56a87.eot"
-  },
-  {
     "revision": "954bbdeb86483e4ffea00c4591530ece",
     "url": "/anatomek/static/media/Roboto-Thin.954bbdeb.woff2"
+  },
+  {
+    "revision": "dfe56a876d0282555d1e2458e278060f",
+    "url": "/anatomek/static/media/Roboto-Thin.dfe56a87.eot"
   },
   {
     "revision": "7500519de3d82e33d1587f8042e2afcb",
     "url": "/anatomek/static/media/Roboto-Thin.7500519d.woff"
   },
   {
-    "revision": "94998475f6aea65f558494802416c1cf",
-    "url": "/anatomek/static/media/Roboto-Thin.94998475.ttf"
-  },
-  {
     "revision": "a990f611f2305dc12965f186c2ef2690",
     "url": "/anatomek/static/media/Roboto-Light.a990f611.eot"
+  },
+  {
+    "revision": "94998475f6aea65f558494802416c1cf",
+    "url": "/anatomek/static/media/Roboto-Thin.94998475.ttf"
   },
   {
     "revision": "69f8a0617ac472f78e45841323a3df9e",
@@ -184,20 +184,20 @@ self.__precacheManifest = [
     "url": "/anatomek/static/media/Roboto-Medium.574fd0b5.woff2"
   },
   {
-    "revision": "fc78759e93a6cac50458610e3d9d63a0",
-    "url": "/anatomek/static/media/Roboto-Medium.fc78759e.woff"
-  },
-  {
     "revision": "ecdd509cadbf1ea78b8d2e31ec52328c",
     "url": "/anatomek/static/media/Roboto-Bold.ecdd509c.eot"
   },
   {
-    "revision": "39b2c3031be6b4ea96e2e3e95d307814",
-    "url": "/anatomek/static/media/Roboto-Bold.39b2c303.woff2"
+    "revision": "fc78759e93a6cac50458610e3d9d63a0",
+    "url": "/anatomek/static/media/Roboto-Medium.fc78759e.woff"
   },
   {
     "revision": "894a2ede85a483bf9bedefd4db45cdb9",
     "url": "/anatomek/static/media/Roboto-Medium.894a2ede.ttf"
+  },
+  {
+    "revision": "39b2c3031be6b4ea96e2e3e95d307814",
+    "url": "/anatomek/static/media/Roboto-Bold.39b2c303.woff2"
   },
   {
     "revision": "dc81817def276b4f21395f7ea5e88dcd",
@@ -208,12 +208,12 @@ self.__precacheManifest = [
     "url": "/anatomek/static/media/arrow_left.11911410.svg"
   },
   {
-    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
-    "url": "/anatomek/static/media/Roboto-Bold.e31fcf18.ttf"
-  },
-  {
     "revision": "8ef6a08cdc1154920165680a4edde771",
     "url": "/anatomek/static/media/arrow_right.8ef6a08c.svg"
+  },
+  {
+    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
+    "url": "/anatomek/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
     "revision": "889f13f60ef7f2bfdc4748ff198144fe",
@@ -292,7 +292,7 @@ self.__precacheManifest = [
     "url": "/anatomek/static/media/esophagus.2e30c388.svg"
   },
   {
-    "revision": "80ae2b2f9f88da102bf171ad3fe8d5dd",
+    "revision": "4db2a70d32eca37be944ca5d2465514b",
     "url": "/anatomek/index.html"
   }
 ];

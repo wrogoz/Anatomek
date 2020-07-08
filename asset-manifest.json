@@ -1,7 +1,7 @@
 {
   "main.css": "/anatomek/static/css/main.68adfea9.chunk.css",
-  "main.js": "/anatomek/static/js/main.e6f40475.chunk.js",
-  "main.js.map": "/anatomek/static/js/main.e6f40475.chunk.js.map",
+  "main.js": "/anatomek/static/js/main.67ba94a5.chunk.js",
+  "main.js.map": "/anatomek/static/js/main.67ba94a5.chunk.js.map",
   "static/css/1.39ea1625.chunk.css": "/anatomek/static/css/1.39ea1625.chunk.css",
   "static/js/1.ab2943e9.chunk.js": "/anatomek/static/js/1.ab2943e9.chunk.js",
   "static/js/1.ab2943e9.chunk.js.map": "/anatomek/static/js/1.ab2943e9.chunk.js.map",
@@ -20,7 +20,7 @@
   "static/media/largeIntestine.svg": "/anatomek/static/media/largeIntestine.b2a0eee5.svg",
   "static/media/stomach.svg": "/anatomek/static/media/stomach.1f70ee89.svg",
   "static/media/all.min.css": "/anatomek/static/media/fa-solid-900.ec763292.svg",
-  "static/media/mdb.css": "/anatomek/static/media/arrow_right.8ef6a08c.svg",
+  "static/media/mdb.css": "/anatomek/static/media/Roboto-Bold.e31fcf18.ttf",
   "static/media/smallintestine.svg": "/anatomek/static/media/smallintestine.889f13f6.svg",
   "static/media/liver.svg": "/anatomek/static/media/liver.f4ff6c6b.svg",
   "static/media/heart.svg": "/anatomek/static/media/heart.e0ea9092.svg",
@@ -39,6 +39,6 @@
   "static/css/main.68adfea9.chunk.css.map": "/anatomek/static/css/main.68adfea9.chunk.css.map",
   "static/css/1.39ea1625.chunk.css.map": "/anatomek/static/css/1.39ea1625.chunk.css.map",
   "index.html": "/anatomek/index.html",
-  "precache-manifest.4751f4847d74c7c2a5941dd615dc7dfa.js": "/anatomek/precache-manifest.4751f4847d74c7c2a5941dd615dc7dfa.js",
+  "precache-manifest.fca49d8e842dddbd37c8d0e251032bd3.js": "/anatomek/precache-manifest.fca49d8e842dddbd37c8d0e251032bd3.js",
   "service-worker.js": "/anatomek/service-worker.js"
 }
