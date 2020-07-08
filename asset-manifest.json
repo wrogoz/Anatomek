@@ -1,7 +1,7 @@
 {
   "main.css": "/anatomek/static/css/main.68adfea9.chunk.css",
-  "main.js": "/anatomek/static/js/main.600ef6b8.chunk.js",
-  "main.js.map": "/anatomek/static/js/main.600ef6b8.chunk.js.map",
+  "main.js": "/anatomek/static/js/main.2d6a1a16.chunk.js",
+  "main.js.map": "/anatomek/static/js/main.2d6a1a16.chunk.js.map",
   "static/css/1.39ea1625.chunk.css": "/anatomek/static/css/1.39ea1625.chunk.css",
   "static/js/1.ab2943e9.chunk.js": "/anatomek/static/js/1.ab2943e9.chunk.js",
   "static/js/1.ab2943e9.chunk.js.map": "/anatomek/static/js/1.ab2943e9.chunk.js.map",
@@ -39,6 +39,6 @@
   "static/css/main.68adfea9.chunk.css.map": "/anatomek/static/css/main.68adfea9.chunk.css.map",
   "static/css/1.39ea1625.chunk.css.map": "/anatomek/static/css/1.39ea1625.chunk.css.map",
   "index.html": "/anatomek/index.html",
-  "precache-manifest.eeaadfd558203c5a4a05b0d498b4743d.js": "/anatomek/precache-manifest.eeaadfd558203c5a4a05b0d498b4743d.js",
+  "precache-manifest.e666e7ab005636ee30425bba0e9fd463.js": "/anatomek/precache-manifest.e666e7ab005636ee30425bba0e9fd463.js",
   "service-worker.js": "/anatomek/service-worker.js"
 }
